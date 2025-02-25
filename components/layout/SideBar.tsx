@@ -18,6 +18,7 @@ export default function SideBar({ children, data }: { children: React.ReactNode,
                         <SideBarRenderer data={data} />
                     </div>
                 </div>
+                <p onClick={toggleCollapse}>buh</p>
             </motion.div>
             <div className="w-full">
                 {children}

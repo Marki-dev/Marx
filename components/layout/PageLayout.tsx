@@ -1,4 +1,4 @@
-import { FaDiscord, FaHome, FaKey, FaLock, FaQuestion, FaSpotify, FaUser } from "react-icons/fa";
+import { FaDiscord, FaKey, FaLock, FaQuestion, FaSpotify, FaUser } from "react-icons/fa";
 import NavBar from "./NavBar";
 import SideBar from "./SideBar";
 import { SidebarItem } from "./sidebar/SideBarRenderer";
@@ -44,7 +44,7 @@ const sidebars: SidebarItem[] = [
     },
     {
         name: "Spotify",
-        icon: <FaLock />,
+        icon: <FaSpotify />,
         children: [
             {
                 name: "oAuth",
@@ -63,7 +63,7 @@ const sidebars: SidebarItem[] = [
                 children: [
                     {
                         name: "Avatar",
-                        icon: <FaUser />,
+                        icon: <FaLock />,
                         onClick: "buh",
                     },
                     {
